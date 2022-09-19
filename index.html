@@ -1,40 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>LADESIGN</title>
-</head>
+  </head>
 
-<body>
-    <header class="header container">
-        <div class="header__logo">
-            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-        </div>
-        <div class="header__menu">
-            <a href="#">Портфолио</a>
-            <a href="#">Услуги и цены</a>
-            <a href="#">Контакты</a>
-        </div>
-        <div class="header__telephone">
-            <div class="telephone__icon">
-                <img src="img/phoneicon.svg" alt="phoneicon">
+  <body>
+    <div class="main__screen">
+      <header class="header">
+        <div class="container">
+          <div class="header-flex">
+            <div class="header__logo">
+              <a href="index.html"
+                ><svg
+                  width="45"
+                  height="45"
+                  viewBox="0 0 45 45"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0H4.58052V40.299H18.0529V44.8658H0V0Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M13.4724 36.1347H18.0476V27.1339H22.4881V22.5711H18.0476V4.70103H26.9395V45H42.3079C42.3079 45 44.9991 44.8658 44.9991 41.7792V2.82089C44.9991 2.82089 45.1337 0.136887 42.0388 0.136887H35.9713V4.56549H40.4119V40.4372H31.5254V2.82089C31.5254 2.82089 31.3908 0.136887 29.1032 0.136887H15.6281C15.6281 0.136887 13.4751 0.539487 13.4751 2.82089L13.4724 36.1347Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
             </div>
-            <p class="telephone__text">+7 918 412-34-43</p>
+            <div class="header__menu">
+              <a href="#">Портфолио</a>
+              <a href="#">Услуги и цены</a>
+              <a href="#">Контакты</a>
+            </div>
+            <div class="header__telephone">
+              <div class="telephone__icon">
+                <svg
+                  width="23"
+                  height="23"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.8732 22C12.4889 22 8.54617 20.1881 5.67236 17.3134C2.79854 14.4387 1 10.5076 1 6.12195C1 5.2 1.40963 4.37409 2.04968 3.81067L4.55227 1.42896C4.82749 1.16006 5.19872 1 5.60835 1C6.13959 1 6.60683 1.2689 6.88205 1.67866L9.42304 5.23201C9.60226 5.48171 9.70466 5.78902 9.70466 6.12195C9.70466 6.57652 9.49985 6.99268 9.18622 7.27439L7.15087 9.06707C6.86925 9.34878 6.63243 9.74573 6.63243 10.2195C6.62603 11.3463 7.46449 12.8957 8.78299 14.2146C10.1015 15.5335 11.6504 16.3723 12.7769 16.3659C13.2441 16.3659 13.6474 16.129 13.929 15.8473L15.7275 13.8177C16.0091 13.4976 16.4188 13.2991 16.8796 13.2991C17.2124 13.2991 17.5133 13.4015 17.7693 13.5808L21.3215 16.1226C21.7312 16.3979 22 16.8652 22 17.3966C22 17.8064 21.84 18.1777 21.5776 18.453L19.1966 20.9564C18.6205 21.5902 17.7949 22 16.8732 22Z"
+                    stroke="white"
+                    stroke-miterlimit="10"
+                  />
+                </svg>
+              </div>
+              <p class="telephone__text">+7 918 412-34-43</p>
+            </div>
+          </div>
         </div>
-    </header>
-    <div class="main_screen">
-        <img src="img/pictureBG.jpg" alt="pictureBG">
-        <div class="main_screen__captions">
-            <h1>Ladesign</h1>
-        </div>
+      </header>
+      <div class="screen__captions">
+        <h1>Ladesign</h1>
+        <p>Дизайн-проекты жилых и коммерческих помещений. Малая архитектура</p>
+      </div>
     </div>
-</body>
 
+    <section class="advantages">
+      <div class="container">
+        <h3 class="advantages__title">Наша команда дает уверенность</h3>
+        <div class="advantages__content">
+          <div class="content__accordion">
+            <h3 class="accordion__title">
+              Дизайн-проект от студии LA Design не только совершенен по дизайну,
+              но и реализуем
+            </h3>
+            <details>
+              <summary>
+                Каждый проект уникален
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="15.6924" cy="15" r="14.5" stroke="#D5D5D5" />
+                  <path
+                    d="M21.299 21.1066C21.5751 21.1066 21.799 20.8827 21.799 20.6066L21.799 16.1066C21.799 15.8305 21.5751 15.6066 21.299 15.6066C21.0228 15.6066 20.799 15.8305 20.799 16.1066V20.1066L16.799 20.1066C16.5228 20.1066 16.299 20.3305 16.299 20.6066C16.299 20.8827 16.5228 21.1066 16.799 21.1066L21.299 21.1066ZM10.3388 10.3536L20.9454 20.9602L21.6525 20.253L11.0459 9.64645L10.3388 10.3536Z"
+                    fill="#777777"
+                  />
+                </svg>
+              </summary>
+              <p>
+                Дизайнеры и архитекторы студии не работают по шаблону, учитывают
+                все пожелания и не копируют работы из чужих портфолио
+              </p>
+            </details>
+            <details>
+              <summary>
+                Полное сопровождение
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="15.6924" cy="15" r="14.5" stroke="#D5D5D5" />
+                  <path
+                    d="M21.299 21.1066C21.5751 21.1066 21.799 20.8827 21.799 20.6066L21.799 16.1066C21.799 15.8305 21.5751 15.6066 21.299 15.6066C21.0228 15.6066 20.799 15.8305 20.799 16.1066V20.1066L16.799 20.1066C16.5228 20.1066 16.299 20.3305 16.299 20.6066C16.299 20.8827 16.5228 21.1066 16.799 21.1066L21.299 21.1066ZM10.3388 10.3536L20.9454 20.9602L21.6525 20.253L11.0459 9.64645L10.3388 10.3536Z"
+                    fill="#777777"
+                  />
+                </svg>
+              </summary>
+              <p>
+                Клиент может заказать услугу по авторскому надзору и вообще
+                не приезжать на объект. Мы будем контролировать и корректировать
+                ход выполнения ремонтных работ согласно дизайн-проекту
+              </p>
+            </details>
+            <details>
+              <summary>
+                Согласование перепланировки
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="15.6924" cy="15" r="14.5" stroke="#D5D5D5" />
+                  <path
+                    d="M21.299 21.1066C21.5751 21.1066 21.799 20.8827 21.799 20.6066L21.799 16.1066C21.799 15.8305 21.5751 15.6066 21.299 15.6066C21.0228 15.6066 20.799 15.8305 20.799 16.1066V20.1066L16.799 20.1066C16.5228 20.1066 16.299 20.3305 16.299 20.6066C16.299 20.8827 16.5228 21.1066 16.799 21.1066L21.299 21.1066ZM10.3388 10.3536L20.9454 20.9602L21.6525 20.253L11.0459 9.64645L10.3388 10.3536Z"
+                    fill="#777777"
+                  />
+                </svg>
+              </summary>
+              <p>
+                Поможем согласовать любые планировочные решения, которые не
+                противоречат закону. Возьмем на себя все бумажные вопросы, чтобы
+                освободить ваше время
+              </p>
+            </details>
+            <details>
+              <summary>
+                Техническая документация
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="15.6924" cy="15" r="14.5" stroke="#D5D5D5" />
+                  <path
+                    d="M21.299 21.1066C21.5751 21.1066 21.799 20.8827 21.799 20.6066L21.799 16.1066C21.799 15.8305 21.5751 15.6066 21.299 15.6066C21.0228 15.6066 20.799 15.8305 20.799 16.1066V20.1066L16.799 20.1066C16.5228 20.1066 16.299 20.3305 16.299 20.6066C16.299 20.8827 16.5228 21.1066 16.799 21.1066L21.299 21.1066ZM10.3388 10.3536L20.9454 20.9602L21.6525 20.253L11.0459 9.64645L10.3388 10.3536Z"
+                    fill="#777777"
+                  />
+                </svg>
+              </summary>
+              <p>
+                Готовим полный пакет документов, который гарантирует
+                ответственный подход к работе и высокое качество реализованного
+                дизайн-проекта
+              </p>
+            </details>
+            <details>
+              <summary>
+                Строгая политика<br />
+                конфиденциальности
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="15.6924" cy="15" r="14.5" stroke="#D5D5D5" />
+                  <path
+                    d="M21.299 21.1066C21.5751 21.1066 21.799 20.8827 21.799 20.6066L21.799 16.1066C21.799 15.8305 21.5751 15.6066 21.299 15.6066C21.0228 15.6066 20.799 15.8305 20.799 16.1066V20.1066L16.799 20.1066C16.5228 20.1066 16.299 20.3305 16.299 20.6066C16.299 20.8827 16.5228 21.1066 16.799 21.1066L21.299 21.1066ZM10.3388 10.3536L20.9454 20.9602L21.6525 20.253L11.0459 9.64645L10.3388 10.3536Z"
+                    fill="#777777"
+                  />
+                </svg>
+              </summary>
+              <p>
+                Обеспечиваем защиту персональных данных заказчиков
+                и не раскрываем их третьим лицам.
+              </p>
+            </details>
+          </div>
+          <div class="content__img">
+            <img src="img/advantges_img.jpg" alt="advantges_img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="portfolio__header">Портфолио</h2>
+        <ul class="filter">
+          <li class="filter__item">все работы</li>
+          <li class="filter__item">квартиры</li>
+          <li class="filter__item">дома</li>
+          <li class="filter__item">коммерческие помещения</li>
+        </ul>
+        <div class="portfolio__images">
+          <img
+            src="/img/portfolio/portfolio-1.jpg"
+            alt=""
+            class="images-item item-1"
+          />
+          <img
+            src="/img/portfolio/portfolio-2.jpg"
+            alt=""
+            class="images-item item-2"
+          />
+          <img
+            src="/img/portfolio/portfolio-3.jpg"
+            alt=""
+            class="images-item item-3"
+          />
+          <img
+            src="/img/portfolio/portfolio-4.jpg"
+            alt=""
+            class="images-item item-4"
+          />
+          <img
+            src="/img/portfolio/portfolio-5.jpg"
+            alt=""
+            class="images-item item-5"
+          />
+          <img
+            src="/img/portfolio/portfolio-6.jpg"
+            alt=""
+            class="images-item item-6"
+          />
+          <img
+            src="/img/portfolio/portfolio-7.jpg"
+            alt=""
+            class="images-item item-7"
+          />
+          <img
+            src="/img/portfolio/portfolio-8.jpg"
+            alt=""
+            class="images-item item-8"
+          />
+          <img
+            src="/img/portfolio/portfolio-9.jpg"
+            alt=""
+            class="images-item item-9"
+          />
+          <img
+            src="/img/portfolio/portfolio-10.jpg"
+            alt=""
+            class="images-item item-10"
+          />
+          <img
+            src="/img/portfolio/portfolio-1.jpg"
+            alt=""
+            class="images-item item-11"
+          />
+          <img
+            src="/img/portfolio/portfolio-2.jpg"
+            alt=""
+            class="images-item item-12"
+          />
+          <img
+            src="/img/portfolio/portfolio-3.jpg"
+            alt=""
+            class="images-item item-13"
+          />
+          <img
+            src="/img/portfolio/portfolio-4.jpg"
+            alt=""
+            class="images-item item-14"
+          />
+          <img
+            src="/img/portfolio/portfolio-5.jpg"
+            alt=""
+            class="images-item item-15"
+          />
+          <img
+            src="/img/portfolio/portfolio-7.jpg"
+            alt=""
+            class="images-item item-17"
+          />
+          <img
+            src="/img/portfolio/portfolio-6.jpg"
+            alt=""
+            class="images-item item-16"
+          />
+        </div>
+        <div class="btn__show-more">показать еще работы</div>
+      </div>
+    </section>
+
+    <script src="script/index.js"></script>
+  </body>
 </html>
